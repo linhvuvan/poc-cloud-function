@@ -1,0 +1,15 @@
+{
+  "name": "poc-cloud-function",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "pulumi up -s dev --yes",
+    "destroy": "pulumi destroy -s dev --yes"
+  },
+  "devDependencies": {
+    "@types/node": "^16"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/gcp": "^7.0.0"
+  }
+}

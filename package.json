@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "deploy": "(cd app && npm run build) && (cd infra && npm run deploy)"
+  }
+}
