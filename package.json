@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "deploy": "(cd app && npm run build) && (cd infra && npm run deploy)"
+    "deploy": "(cd app && npm run build) && (cd infra && npm run deploy)",
+    "destroy": "cd infra && npm run destroy"
   }
 }
